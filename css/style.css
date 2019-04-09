@@ -3650,7 +3650,7 @@ body.nav--overlay-open {
 /* Footer Widgets
 -------------------------------------------------------*/
 .footer__widgets {
-  padding: 100px 0; }
+  padding: 50px 0; }
   .footer__widgets .widget-title {
     font-size: 16px; }
   .footer__widgets a {
@@ -4857,3 +4857,10 @@ img.alignright {
   margin: 10px 0 10px 20px; }
 
 /*# sourceMappingURL=style.css.map */
+
+
+.socialmedia {
+  width: 45px;
+  height: 45px;
+  vertical-align: bottom;
+}
