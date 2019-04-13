@@ -3103,12 +3103,12 @@ th {
 /* Logo
 -------------------------------------------------------*/
 .logo {
-  max-height: 21px;
+  max-height: 58px;
   position: relative;
-  top: -2px; }
+  top: -1px; }
 
 .logo__link {
-  height: 72px;
+  height: 62px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -3669,9 +3669,13 @@ body.nav--overlay-open {
 /* Footer Logo
 -------------------------------------------------------*/
 .footer__logo {
-  margin-bottom: 52px; }
-  .footer__logo img {
-    max-height: 21px; }
+  margin-bottom: 50px; 
+}
+  
+.footer__logo img {
+    max-height: 58px; 
+    filter: invert(100%);
+}
 
 /* Get in Touch
 -------------------------------------------------------*/
