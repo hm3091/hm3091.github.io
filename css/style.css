@@ -495,7 +495,7 @@ blockquote {
 /* Grid
 /*-------------------------------------------------------*/
 .section-wrap {
-  padding: 70px 0;
+  padding: 50px 0;
   overflow: hidden;
   background-size: cover;
   background-position: center; }
@@ -1106,7 +1106,7 @@ blockquote {
     background-clip: text;
     -webkit-text-fill-color: transparent; }
   .feature__title {
-    font-size: 20px;
+    font-size: 26px;
     margin-bottom: 13px; }
   .feature__text p {
     margin-bottom: 0; }
@@ -1158,7 +1158,8 @@ blockquote {
 /*-------------------------------------------------------*/
 .feature-2 {
   padding: 45px 20px;
-  border-right: 1px solid #313131; }
+  /*border-right: 1px solid #313131; */ 
+} 
   @media only screen and (max-width: 991px) {
     .feature-2 {
       padding: 80px 40px;
@@ -3674,7 +3675,7 @@ body.nav--overlay-open {
   
 .footer__logo img {
     max-height: 58px; 
-    filter: invert(100%);
+    /* filter: invert(100%); */
 }
 
 /* Get in Touch
