@@ -17,6 +17,17 @@
 
 /*-------------------------------------------------------*/
 /*-------------------------------------------------------*/
+
+/* ZOOM */
+.zoom {
+  transition: all 100ms; /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(2);
+}
+
 /* General
 /*-------------------------------------------------------*/
 .clearfix {
@@ -157,6 +168,11 @@ hr {
 
 /* Section Dark / Background Image
 -------------------------------------------------------*/
+
+.bg-img {
+  height: 735px;
+}
+
 .bg-img h1, .bg-img h2, .bg-img h3, .bg-img h4, .bg-img h5, .bg-img h6,
 .bg-img .hero__subtitle,
 .bg-img .entry__meta li,
