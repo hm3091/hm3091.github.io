@@ -6,7 +6,7 @@
 
     // Preloader
     $('.loader').fadeOut();
-    $('.loader-mask').delay(30).fadeOut('slow');
+    $('.loader-mask').delay(15).fadeOut('slow');
     initOwlCarousel();
     initCounters();
 
