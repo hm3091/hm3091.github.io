@@ -381,11 +381,17 @@ a {
     text-decoration: none; }
 
 p {
-  font-size: 15px;
+  font-size: 16px;
   color: #929292;
   font-weight: 400;
   line-height: 26px;
   margin: 0 0 10px; }
+
+  @media only screen and (max-width: 991px) {
+    p {
+      font-size: 16px;
+    } 
+  }
 
 .lead {
   font-size: 19px;
@@ -3161,7 +3167,7 @@ header .flex-child.flex-right {
 -------------------------------------------------------*/
 .nav__icon-toggle {
   position: relative;
-  top: 14px;
+  top: 2px;
   float: right;
   padding: 9px 0 9px 10px;
   background-color: transparent;
