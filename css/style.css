@@ -169,8 +169,12 @@ hr {
 /* Section Dark / Background Image
 -------------------------------------------------------*/
 
+.slogan {
+  z-index: 100;
+}
 .bg-img {
   height: 735px;
+  z-index:0;
   /* filter: grayscale(90%); */
 }
 
@@ -293,7 +297,7 @@ ul, ol {
   list-style-position: inside; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Karla", sans-serif;
+  
   margin-top: 0;
   margin-bottom: 10px;
   color: #212121;
@@ -478,12 +482,12 @@ blockquote {
     font-size: 22px;
     line-height: 34px;
     font-style: italic;
-    font-family: "Karla", sans-serif;
+    
     margin-bottom: 10px;
     letter-spacing: -0.04em;
     position: relative; }
   blockquote span {
-    font-family: "Karla", sans-serif;
+    
     letter-spacing: -0.04em;
     color: #212121;
     font-size: 14px; }
@@ -492,7 +496,7 @@ blockquote {
 -------------------------------------------------------*/
 .dropcap {
   float: left;
-  font-family: "Karla", sans-serif;
+  
   color: #39bad6;
   font-size: 56px;
   line-height: 48px;
@@ -1391,9 +1395,8 @@ label {
     display: table;
     height: 100%;
     width: 100%;
-    position: relative;
-    top: -600px;
-    z-index: 5; 
+    position: absolute;
+    top: 330px;
   }
     @media only screen and (max-width: 767px) {
       .hero__outer {
@@ -3063,10 +3066,7 @@ th {
       .nav__holder.scrolling .nav__menu > li.flex-child {
         border-left: 1px solid rgba(144, 144, 144, 0.3); }
     .nav__menu > li > a {
-      font-family: "Karla", sans-serif;
-      font-weight: 400;
       color: #292b32;
-      font-size: 15px;
       padding: 0 17px;
       line-height: 72px;
       display: block;
@@ -3150,9 +3150,9 @@ th {
 /* Logo
 -------------------------------------------------------*/
 .logo {
-  max-height: 38px;
+  max-height: 125px;
   position: relative;
-  top: -1px;
+  top: 3px;
   filter: invert(100%); 
 }
 
@@ -3269,11 +3269,18 @@ header .flex-child.flex-right {
   .nav__holder.sticky.scrolling {
     opacity: 1;
     visibility: visible; }
-  .nav__holder.sticky .nav__menu > li > a {
-    line-height: 60px; }
+  .nav__holder.sticky .nav__menu > li > a 
+  {
+    line-height: 60px; 
+  }
   .nav__holder.sticky .logo-wrap a {
-    height: 60px; }
+    height: 60px; 
+  }
 
+.menuitem {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 16px;
+}
 /* Nav Transparent
 -------------------------------------------------------*/
 @media only screen and (min-width: 992px) {
@@ -3375,9 +3382,8 @@ header .flex-child.flex-right {
 -------------------------------------------------------*/
 .nav__phone {
   display: inline-block;
-  padding-left: 30px; }
-  .nav__phone__link {
-    font-family: "Karla", sans-serif; }
+  padding-left: 30px; 
+}
     .nav__holder.scrolling .nav__phone__link {
       color: #292b32; }
     .nav--transparent .nav__phone__link {
@@ -3546,8 +3552,7 @@ header .flex-child.flex-right {
     vertical-align: middle;
     position: relative;
     overflow: hidden;
-    font-family: "Karla", sans-serif;
-    font-size: 40px;
+    
     letter-spacing: -0.02em;
     color: #fff;
     padding: 15px 0;
@@ -3750,7 +3755,7 @@ body.nav--overlay-open {
 /* Nav Links
 -------------------------------------------------------*/
 .footer__nav-links .list-inline li > a {
-  font-family: "Karla", sans-serif;
+ 
   color: #fff;
   font-size: 15px; }
   .footer__nav-links .list-inline li > a:hover {
@@ -4913,7 +4918,7 @@ img.alignright {
 
 
 .socialmedia {
-  width: 45px;
-  height: 45px;
+  width: 35px;
+  height: 35px;
   vertical-align: bottom;
 }
