@@ -1,7 +1,6 @@
 var imageNumber=Math.floor(Math.random() * 10) + 1;
 $('#sectionBackgroundImage').css("background-image", "url(img/hanna/bg" + imageNumber + ".jpg)");
 
-
 var changeBgFunc = setInterval(changeBackgroundFilter, 80);
 function changeBackgroundFilter() {
     var filter = $('#sectionBackgroundImage').css("filter");
@@ -16,3 +15,5 @@ function changeBackgroundFilter() {
     }
 }
 
+$('#orderButtonMenu').css('left', (screen.width / 2) - 60);
+$('#orderButtonMenu').css('top', '190px');

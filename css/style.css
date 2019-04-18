@@ -67,7 +67,8 @@ body {
   outline: 0;
   overflow-x: hidden;
   overflow-y: auto;
-  color: #929292; }
+  color: #929292; 
+}
   body img {
     border: none;
     max-width: 100%;
@@ -96,7 +97,7 @@ hr {
   right: 0;
   bottom: 0;
   background-color: #fff;
-  z-index: 99999; }
+  z-index: 9999; }
 
 .loader {
   position: absolute;
@@ -170,7 +171,7 @@ hr {
 -------------------------------------------------------*/
 
 .slogan {
-  z-index: 100;
+  z-index: 1;
 }
 .bg-img {
   height: 735px;
@@ -4922,3 +4923,10 @@ img.alignright {
   height: 35px;
   vertical-align: bottom;
 }
+
+
+
+
+
+
+
