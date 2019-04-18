@@ -3151,7 +3151,7 @@ th {
 /* Logo
 -------------------------------------------------------*/
 .logo {
-  max-height: 125px;
+  max-height: 115px;
   position: relative;
   top: 3px;
   filter: invert(100%); 

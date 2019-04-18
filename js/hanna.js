@@ -14,6 +14,3 @@ function changeBackgroundFilter() {
         clearInterval(changeBgFunc)
     }
 }
-
-$('#orderButtonMenu').css('left', (screen.width / 2) - 60);
-$('#orderButtonMenu').css('top', '190px');
