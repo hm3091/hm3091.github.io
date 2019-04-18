@@ -171,6 +171,7 @@ hr {
 
 .bg-img {
   height: 735px;
+  /* filter: grayscale(90%); */
 }
 
 .bg-img h1, .bg-img h2, .bg-img h3, .bg-img h4, .bg-img h5, .bg-img h6,
@@ -401,7 +402,9 @@ p {
   color: #929292;
   font-weight: 400;
   line-height: 26px;
-  margin: 0 0 10px; }
+  text-align: justify;
+  margin: 0 0 10px; 
+}
 
   @media only screen and (max-width: 991px) {
     p {
@@ -411,7 +414,8 @@ p {
 
 .lead {
   font-size: 19px;
-  line-height: 30px; }
+  line-height: 30px; 
+}
 
 address {
   font-style: normal; }
@@ -1360,12 +1364,16 @@ label {
 /* Hero
 /*-------------------------------------------------------*/
 .hero {
+  filter: brightness(100%);
   background-size: cover;
   background-position: 50%;
   height: 100%;
-  position: relative; }
-  .hero__container {
-    height: 100%; }
+  position: relative; 
+}
+
+.hero__container {
+    height: 100%; 
+}
   @media only screen and (max-width: 991px) {
     .hero__container, .hero__container--short, .hero__container--medium {
       height: 600px !important; } }
@@ -1384,14 +1392,16 @@ label {
     height: 100%;
     width: 100%;
     position: relative;
-    top: 0;
-    z-index: 5; }
+    top: -600px;
+    z-index: 5; 
+  }
     @media only screen and (max-width: 767px) {
       .hero__outer {
         padding: 0 15px; } }
   .hero__inner {
     display: table-cell;
-    vertical-align: middle; }
+    vertical-align: middle; 
+  }
   .hero__inner--bottom {
     vertical-align: bottom; }
   .hero__inner--top {
@@ -1404,9 +1414,15 @@ label {
     @media only screen and (max-width: 767px) {
       .hero__inner--top {
         margin-top: 0; } }
-  .hero__title {
-    font-size: 50px;
-    margin-bottom: 20px; }
+
+.hero__title {
+  font-size: 50px;
+  font-family: Anonymous Pro;
+  font-weight: bold;
+  color:white;
+}
+
+
     @media only screen and (max-width: 767px) {
       .hero__title {
         font-size: 40px; } }
@@ -1434,7 +1450,7 @@ label {
       .hero__title--lg {
         font-size: 36px; } }
   .hero--boxed {
-    max-width: 570px; }
+    max-width: 670px; }
   .hero--boxed--md {
     max-width: 670px; }
   .hero--center {
@@ -1443,9 +1459,12 @@ label {
   .hero--bold {
     font-weight: 700; }
   .hero__subtitle {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 30px;
-    margin-bottom: 47px; }
+    margin-bottom: 47px; 
+    color: white;
+    font-family: 'Ubuntu Mono', monospace;
+  }
   .hero__subtitle--uppercase {
     font-size: 20px;
     letter-spacing: normal;
@@ -3133,7 +3152,9 @@ th {
 .logo {
   max-height: 38px;
   position: relative;
-  top: -1px; }
+  top: -1px;
+  filter: invert(100%); 
+}
 
 .logo__link {
   height: 62px;
