@@ -6933,7 +6933,3 @@ img.alignright {
 #sectionBackgroundImagePortfolio {
   filter: grayscale(100%) brightness(0.5);
 }
-
-img {
-  pointer-events: none;
-}
