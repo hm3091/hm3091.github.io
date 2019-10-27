@@ -36,7 +36,7 @@
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono|Lato|Roboto+Slab|Roboto|Anonymous+Pro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono|Lato|Karla|Roboto+Slab|Roboto|Anonymous+Pro" rel="stylesheet">
   
   <!-- Favicons -->
   <link rel="shortcut icon" href="img/favicon.ico">
@@ -79,11 +79,13 @@
               <!-- Logo -->
               <div class="logo-wrap">
                 <a href="index.html" class="logo__link">
-                  <img class="logo" src="img/hanna/logo-01.png" alt="Hannaneh Misaghi | Architectural and Design Studio" title="Hannaneh Misaghi | Architectural and Design Studio">
+                  <img class="logo" src="img/hanna/logo-01.png" 
+                  alt="Hannaneh Misaghi | Architectural and Design Studio" title="Hannaneh Misaghi | Architectural and Design Studio">
                 </a>
               </div>
               <button type="button" class="nav__icon-toggle" id="nav__icon-toggle" data-toggle="collapse" data-target="#navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
+                <span class="nav__icon-toggle-bar"></span>
                 <span class="nav__icon-toggle-bar"></span>
                 <span class="nav__icon-toggle-bar"></span>
                 <span class="nav__icon-toggle-bar"></span>
@@ -93,8 +95,8 @@
             <nav id="navbar-collapse" class="nav__wrap collapse navbar-collapse ">              
               <ul class="nav__menu nav__menu--inline">
 
-                <li class="nav__dropdown">
-                  <a class="menuitem" href="#">Home</a>
+                <li>
+                  <a class="menuitem" href="index.html">Home</a>
                   <!-- <i class="ui-arrow-down nav__dropdown-trigger"></i>
                   <ul class="nav__dropdown-menu">
                     <li><a href="index.html">Home Startup</a></li>
@@ -104,23 +106,23 @@
                     <li><a href="index-5.html">Home Saas Landing</a></li>
                     <li><a href="index-6.html">Home Agency</a></li>
                   </ul> -->
-                </li>                
+                </li>
 
-                <li class="nav__dropdown">
-                  <a class="menuitem"  href="#">Portfolio</a>
-                  <i class="ui-arrow-down nav__dropdown-trigger"></i>
-                  <ul class="nav__dropdown-menu">
+                <li>
+                  <a class="menuitem" href="portfolio-classic.html">Portfolio</a>
+                  <!-- <i class="ui-arrow-down nav__dropdown-trigger"></i> -->
+                  <!-- <ul class="nav__dropdown-menu">
                     <li>
-                      <a class="menuitem" href="portfolio-classic.html">Architecture</a>
+                      <a class="menuitem" href="">Architecture</a>
                     </li>                 
                     <li>
                       <a class="menuitem" href="portfolio-masonry.html">Graphics</a>
                     </li>
-                    <!-- <li>
+                    <li>
                       <a href="portfolio-single.html">Single Project</a>
-                    </li> -->
-                  </ul>
-                </li>             
+                    </li>
+                  </ul> -->
+                </li>
 
                 <!-- <li class="nav__dropdown">
                   <a href="#">Blog</a>
@@ -171,12 +173,25 @@
         <section class="hero slogan">
             <div class="hero__outer">
                 <div class="hero__inner text-center">
-                  <h1 class="hero__title hero--center hero--boxed">Stylish Architectural Designs and Graphics</h1>
-                  <h3 class="hero__subtitle">Expand your prespective on Architecture and Graphical Design</h3>
-                  <div class="menu-button"><i class="fas fa-cogs"></i></i>
-                        <a href="https://t.me/Hananeh0MI""><i class="fab fa-telegram-plane"></i></a>
-                        <a href="mailto:hm3091@gmail.com"><i class="far fa-envelope-open"></i></a>
-                        <a href="https://www.fiverr.com/hannanehmisaghi"><img src="img/fiverr.png" height="42" width="46"	</a>
+                  <h1 id="sloganText" class="hero__title hero--center hero--boxed">Stylish Architectural Designs and Graphics</h1>
+                  <h3 class="hero__subtitle">A brand new prespective on Architecture and Graphical Design</h3>
+                  <div class="menu-button"><i class="fas fa-th"
+                    alt="Contact Us" title="Contact Us"
+                    ></i></i>
+                        <a href="https://t.me/Hananeh0MI"
+                        alt="Hannaneh Misaghi | Architectural and Design Studio | Telegram" 
+                      title="Hannaneh Misaghi | Architectural and Design Studio | Telegram">
+                          <i class="fab fa-telegram-plane"></i></a>
+                        <a href="mailto:hm3091@gmail.com"
+                        alt="Hannaneh Misaghi | Architectural and Design Studio | Email" 
+                      title="Hannaneh Misaghi | Architectural and Design Studio | Email">
+                          <i class="far fa-envelope-open"></i></a>
+                        <a href="https://www.fiverr.com/hannanehmisaghi"
+                        alt="Hannaneh Misaghi | Architectural and Design Studio | Fiverr" 
+                      title="Hannaneh Misaghi | Architectural and Design Studio | Fiverr">
+                          <img src="img/fiverr.png" height="42" width="46"
+                          alt="Hannaneh Misaghi | Architectural and Design Studio | Fiverr" 
+                      title="Hannaneh Misaghi | Architectural and Design Studio | Fiverr">	</a>
                   </div>
                 </div>
             </div> 
@@ -433,7 +448,9 @@
                 <div class="widget footer__get-in-touch text-sm-center">
                   <!-- <div class="footer__logo">
                     <a href="index.html">
-                      <img src="img/hanna/logo-01.png" alt="Hannaneh Misaghi | Architectural and Design Studio" title="Hannaneh Misaghi | Architectural and Design Studio">
+                      <img src="img/hanna/logo-01.png" 
+                      alt="Hannaneh Misaghi | Architectural and Design Studio" 
+                      title="Hannaneh Misaghi | Architectural and Design Studio">
                     </a>
                   </div> -->
 

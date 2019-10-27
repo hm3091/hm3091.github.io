@@ -1,5 +1,5 @@
 .menu-button {
-    transition: 0.4s;
+    transition: 0.1s;
     position: absolute;
     width: 60px;
     height: 60px;
@@ -23,7 +23,7 @@
 
 
   .menu-button a {
-    transition: 0.4s;
+    transition: 0.2s;
     opacity: 0;
     width: 0px;
     height: 0px;
@@ -48,7 +48,7 @@
   }
 
   .menu-button a:nth-child(2) {
-    transition-delay: 0.3s;
+    transition-delay: 0.2s;
     position: absolute;
     right: 30px;
     bottom: 30px;
@@ -67,7 +67,7 @@
 
 
   .menu-button a:nth-child(3) {
-    transition-delay: 0.4s;
+    transition-delay: 0.3s;
     position: absolute;
     right: 5px;
     bottom: 0px;
@@ -105,5 +105,5 @@
 
   .menu-button:hover a:nth-child(4):hover {
     transition-delay: 0s;
-    background: #00b22d;
+    filter: grayscale(80%);
   }

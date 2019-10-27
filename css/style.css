@@ -179,6 +179,7 @@ hr {
   /* filter: grayscale(90%); */
 }
 
+
 .bg-img h1, .bg-img h2, .bg-img h3, .bg-img h4, .bg-img h5, .bg-img h6,
 .bg-img .hero__subtitle,
 .bg-img .entry__meta li,
@@ -528,7 +529,7 @@ blockquote {
 .section-wrap {
   padding: 50px 0;
   overflow: hidden;
-  background-size: cover;
+  background-s.ize: cover;
   background-position: center; }
   .section-wrap--md {
     padding: 170px 0; }
@@ -1379,9 +1380,12 @@ label {
 .hero__container {
     height: 100%; 
 }
-  @media only screen and (max-width: 991px) {
-    .hero__container, .hero__container--short, .hero__container--medium {
-      height: 600px !important; } }
+@media only screen and (max-width: 991px) {
+  .hero__container, .hero__container--short, .hero__container--medium {
+    height: 600px !important; 
+  } 
+}
+
   @media only screen and (max-width: 767px) {
     .hero__container, .hero__container--short, .hero__container--medium {
       height: auto !important;
@@ -1421,18 +1425,22 @@ label {
 
 .hero__title {
   font-size: 50px;
-  font-family: Anonymous Pro;
+  font-family: Karla;
   font-weight: bold;
   color:white;
 }
 
 
-    @media only screen and (max-width: 767px) {
-      .hero__title {
-        font-size: 40px; } }
-    @media only screen and (max-width: 639px) {
-      .hero__title {
-        font-size: 28px; } }
+  @media only screen and (max-width: 767px) {
+    .hero__title {
+      font-size: 40px; 
+    } 
+  }
+  @media only screen and (max-width: 639px) {
+    .hero__title {
+      font-size: 28px; 
+    } 
+  }
   .hero__title--sm {
     font-size: 38px;
     line-height: 50px;
@@ -1453,10 +1461,14 @@ label {
     @media only screen and (max-width: 639px) {
       .hero__title--lg {
         font-size: 36px; } }
+
   .hero--boxed {
-    max-width: 670px; }
+    max-width: 790px; 
+  }
+
   .hero--boxed--md {
-    max-width: 670px; }
+    max-width: 670px; 
+  }
   .hero--center {
     margin-left: auto;
     margin-right: auto; }
@@ -1467,7 +1479,7 @@ label {
     line-height: 30px;
     margin-bottom: 47px; 
     color: white;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: Karla;
   }
   .hero__subtitle--uppercase {
     font-size: 20px;
@@ -3151,10 +3163,19 @@ th {
 /* Logo
 -------------------------------------------------------*/
 .logo {
-  max-height: 115px;
+  max-height: 50px;
   position: relative;
-  top: 3px;
+  top: 1.75px;
   filter: invert(100%); 
+}
+
+@media only screen and (max-width: 1000px) {
+  .logo {
+    max-height: 50px;
+    filter: none;
+    top: 2.5px;
+    margin-bottom: 6px;
+  } 
 }
 
 .logo__link {
@@ -3210,27 +3231,32 @@ header .flex-child.flex-right {
 -------------------------------------------------------*/
 .nav__icon-toggle {
   position: relative;
-  top: 2px;
+  top: 5px;
   float: right;
   padding: 9px 0 9px 10px;
   background-color: transparent;
   border: none;
-  z-index: 50; }
-  @media only screen and (min-width: 992px) {
-    .nav__icon-toggle {
-      display: none; } }
-  .nav__icon-toggle-bar {
+  z-index: 500; 
+}
+@media only screen and (min-width: 992px) {
+  .nav__icon-toggle {
+    display: none; 
+} }
+.nav__icon-toggle-bar {
     background-color: #212121;
-    width: 18px;
+    width: 28px;
     display: block;
-    height: 2px;
-    border-radius: 1px;
-    margin-bottom: 4px; }
-    .nav__icon-toggle-bar:last-child {
-      margin-bottom: 0; }
-  .nav__icon-toggle:focus .nav__icon-toggle-bar,
-  .nav__icon-toggle:hover .nav__icon-toggle-bar {
-    background-color: #39bad6; }
+    height: 3px;
+    border-radius: 2px;
+    margin-bottom: 4px; 
+}
+.nav__icon-toggle-bar:last-child {
+    margin-bottom: 0; 
+  }
+.nav__icon-toggle:focus .nav__icon-toggle-bar,
+.nav__icon-toggle:hover .nav__icon-toggle-bar {
+  background-color: #39bad6; 
+}
 
 /* Sticky Nav
 -------------------------------------------------------*/
@@ -3279,7 +3305,7 @@ header .flex-child.flex-right {
   }
 
 .menuitem {
-  font-family: 'Ubuntu Mono', monospace;
+  font-family: Karla;
   font-size: 16px;
 }
 /* Nav Transparent
@@ -4919,9 +4945,10 @@ img.alignright {
 
 
 .socialmedia {
-  width: 35px;
-  height: 35px;
+  width: 24px;
+  height: 24px;
   vertical-align: bottom;
+  filter: grayscale(100%);
 }
 
 
