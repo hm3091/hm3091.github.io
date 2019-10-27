@@ -6,69 +6,58 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-
 <url>
-  <loc>https://hm3091.github.io/</loc>
+  <loc>https://hannaneh.io/</loc>
   <lastmod>2019-04-09T07:13:05+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://hm3091.github.io/index.html</loc>
+  <loc>https://hannaneh.io/index.html</loc>
   <lastmod>2019-04-09T07:13:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://hm3091.github.io/portfolio-classic.html</loc>
+  <loc>https://hannaneh.io/portfolio.html</loc>
   <lastmod>2019-04-09T07:13:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://hm3091.github.io/portfolio-masonry.html</loc>
+  <loc>https://hannaneh.io/blog-standard.html</loc>
   <lastmod>2019-04-09T07:13:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://hm3091.github.io/portfolio-single.html</loc>
+  <loc>https://hannaneh.io/blog-single.html</loc>
   <lastmod>2019-04-09T07:13:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://hm3091.github.io/blog-standard.html</loc>
+  <loc>https://hannaneh.io/services.html</loc>
   <lastmod>2019-04-09T07:13:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://hm3091.github.io/blog-single.html</loc>
+  <loc>https://hannaneh.io/about-us.html</loc>
   <lastmod>2019-04-09T07:13:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://hm3091.github.io/services.html</loc>
+  <loc>https://hannaneh.io/about-me.html</loc>
   <lastmod>2019-04-09T07:13:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://hm3091.github.io/about-us.html</loc>
+  <loc>https://hannaneh.io/contact.html</loc>
   <lastmod>2019-04-09T07:13:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://hm3091.github.io/about-me.html</loc>
+  <loc>https://hannaneh.io/typography.html</loc>
   <lastmod>2019-04-09T07:13:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://hm3091.github.io/contact.html</loc>
-  <lastmod>2019-04-09T07:13:05+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://hm3091.github.io/typography.html</loc>
-  <lastmod>2019-04-09T07:13:05+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://hm3091.github.io/shortcodes.html</loc>
+  <loc>https://hannaneh.io/shortcodes.html</loc>
   <lastmod>2019-04-09T07:13:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>

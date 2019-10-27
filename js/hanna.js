@@ -38,3 +38,9 @@ function changeBackgroundFilter() {
         clearInterval(changeBgFunc)
     }
 }
+
+
+$('img').on('dragstart', function(event) { event.preventDefault(); });
+$("body").on("contextmenu", function(e) {
+  return false;
+});
