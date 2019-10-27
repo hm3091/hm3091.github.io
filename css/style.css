@@ -2087,19 +2087,24 @@ iframe {
   .work-item__title {
     font-size: 18px;
     line-height: 1.2;
-    margin-bottom: 5px; }
+    text-align: center;
+    margin-bottom: 5px; 
+  }
     .work-item__title a:hover {
       color: #39bad6; }
   .work-item__text {
     color: #929292; }
   .work-item__category {
     color: #929292;
-    font-size: 13px; }
+    font-size: 13px; 
+    text-align: center;
+  }
     .work-item__category a {
       color: inherit; }
   .work-item.hover-1 .work-item__description {
     top: 0;
     padding: 30px;
+    text-align: center;
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
@@ -2110,7 +2115,8 @@ iframe {
     -moz-transform: translateX(0);
     -ms-transform: translateX(0);
     -o-transform: translateX(0);
-    transform: translateX(0); }
+    transform: translateX(0); 
+  }
 
 .hover-overlay .work-item__title,
 .hover-overlay .work-item__category {
@@ -4949,6 +4955,10 @@ img.alignright {
   height: 24px;
   vertical-align: bottom;
   filter: grayscale(100%);
+}
+
+#sectionBackgroundImagePortfolio {
+   filter: grayscale(100%) brightness(0.5);
 }
 
 

@@ -7,8 +7,7 @@ inside the img/hanna directory using the filename format bg-{number}.jpg
 var totalNumberOfImages = 10
 var imageNumber=Math.floor(Math.random() * totalNumberOfImages) + 1;
 $('#sectionBackgroundImage').css("background-image", "url(img/hanna/bg" + imageNumber + ".jpg)");
-
-
+$('#sectionBackgroundImagePortfolio').css("background-image", "url(img/hanna/bg" + imageNumber + ".jpg)");
 /*********************************************************
 Change slogans by adding them below, separate them by a comma
 /**********************************************************/

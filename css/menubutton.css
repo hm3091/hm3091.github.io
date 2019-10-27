@@ -52,7 +52,7 @@
     position: absolute;
     right: 30px;
     bottom: 30px;
-    background: #55acee;
+    background:none;
   }
 
 
@@ -62,7 +62,7 @@
   }
   .menu-button:hover a:nth-child(2):hover {
     transition-delay: 0s;
-    background: #166eb1;
+    background: none;
   }
 
 
