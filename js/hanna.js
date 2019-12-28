@@ -8,6 +8,7 @@ var totalNumberOfImages = 10
 var imageNumber=Math.floor(Math.random() * totalNumberOfImages) + 1;
 $('#sectionBackgroundImage').css("background-image", "url(img/hanna/bg" + imageNumber + ".jpg)");
 $('#sectionBackgroundImagePortfolio').css("background-image", "url(img/hanna/bg" + imageNumber + ".jpg)");
+$('#sectionBackgroundImagePortfolioExploded').css("background-image", "url(img/diagrams/exploded/06.jpg)");
 /*********************************************************
 Change slogans by adding them below, separate them by a comma
 /**********************************************************/
@@ -40,7 +41,7 @@ function changeBackgroundFilter() {
 }
 
 
-$('img').on('dragstart', function(event) { event.preventDefault(); });
-$("body").on("contextmenu", function(e) {
-  return false;
-});
+// $('img').on('dragstart', function(event) { event.preventDefault(); });
+// $("body").on("contextmenu", function(e) {
+//   return false;
+// });

@@ -204,7 +204,7 @@ hr {
 }
 
 .bg-img {
-  height: 735px;
+  height: 695px;
   z-index: 0;
   /* filter: grayscale(90%); */
 }
@@ -2730,6 +2730,7 @@ html.fp-enabled {
   transition: 0.3s cubic-bezier(0.43, 0.07, 0.61, 0.95);
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
+  filter: grayscale(90%);
 }
 
 .work-item__description {
@@ -6932,4 +6933,20 @@ img.alignright {
 
 #sectionBackgroundImagePortfolio {
   filter: grayscale(100%) brightness(0.5);
+}
+
+#sectionBackgroundImagePortfolioExploded {
+  filter: grayscale(100%);
+}
+
+.owl-item {
+  width:auto;
+  text-align: center;
+}
+
+.portfolio-exploded-single-img {
+  width: 50%;
+  height: 50%;
+  margin-top: -10px;
+  margin-bottom: 50px;
 }
