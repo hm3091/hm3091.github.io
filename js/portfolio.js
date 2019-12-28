@@ -37,8 +37,48 @@ var portfolioItemsForHome = [
     {
         link: 'img/portfolio-home/11.jpg',
         thumbnail: 'img/portfolio-home/11.jpg',
-        images: [],
+        images: ['img/portfolio-home/12.jpg', 'img/portfolio-home/13.jpg'],
         title: 'Qaban Museum',
         description: 'The museum is inspired by the Qaban castle in Maku, in the West Azerbaijan Province, and is tasked to protect and preserve the remains of the castle relics.'
     }
 ]
+
+function shuffle(array) {
+    array.sort(() => Math.random() - 0.5);
+    return array;
+}
+
+function writePortfolioWorkItemsForHome() {
+    var template =
+        `<div class='work-item hover-trigger hover-scale'>
+            <div class='work-item__container card'>
+                <div class='work-item__img-holder'>
+                <a href='$link' class='lightbox-img'>
+                    <img src='$image' title='pdescription' alt='pdescription' class='work-item__img'>
+                </a>
+                $images
+                </div>
+                <div class='card__body'>
+                <div class='work-item__description'>
+                    <h3 class='work-item__title'><a href=''>$title</a></h3>
+                    <p class='work-item__text'>pdescription</p>
+                    <!-- <a href='portfolio-single.html' class='link-more'>View Project<i class='ui-arrow-right'></i></a> -->
+                </div>
+                </div>
+            </div>
+        </div>`;
+
+        var copiedItems = shuffle(portfolioItemsForHome.slice());
+        copiedItems.forEach(element => {
+            var images = ""
+            for (let idx = 0; idx < element.images.length; idx++) {
+                images += "<a href='" + element.images[idx] + "' class='lightbox-img'></a>";
+            }
+            var html = template.replace("$link", element.link)
+                .replace("$images", images)
+                .replace("$image", element.thumbnail)
+                .replace("$title", element.title)
+                .replace(/pdescription/g, element.description);
+            document.write(html);
+        });
+}
