@@ -306,50 +306,84 @@
 
           <div class="row">
 
-            <div id="owl-works-slider" class="owl-carousel owl-theme owl-white-dots">
-              <div class="work-item hover-trigger hover-scale">
+            <div id="owl-works-slider" class="owl-carousel owl-theme owl-white-dots"">
+
+              <script>
+                    var portfolioItemsForHome = [
+                        {
+                            link: 'img/portfolio-home/1.jpg',
+                            images: [],
+                            thumbnail: 'img/portfolio-home/1.jpg',
+                            title: 'Chitgar Connection Bridge',
+                            description: 'As the largest metropolitan area in Tehran, this project is about connecting the park and the lake in the Chitgar Recreational Zone.'
+                        },
+                        {
+                            link: 'img/portfolio-home/2.jpg',
+                            thumbnail: 'img/portfolio-home/4.jpg',
+                            images: ['img/portfolio-home/2.jpg', 'img/portfolio-home/4.jpg'],
+                            title: 'Salian Office Building',
+                            description: 'Salian is an Iranian clothing brand. This design aims to transform the building from a private isolated mass into a multipurpose structure.'
+                        }
+                    ]
+
+                    var template = 
+                    `<div class='work-item hover-trigger hover-scale'>
+                        <div class='work-item__container card'>
+                            <div class='work-item__img-holder'>
+                            <a href='$link' class='lightbox-img'>
+                                <img src='$image' title='pdescription' alt='pdescription' class='work-item__img'>
+                            </a>
+                            $images
+                            </div>
+                            <div class='card__body'>
+                            <div class='work-item__description'>
+                                <h3 class='work-item__title'><a href=''>$title</a></h3>
+                                <p class='work-item__text'>pdescription</p>
+                                <!-- <a href='portfolio-single.html' class='link-more'>View Project<i class='ui-arrow-right'></i></a> -->
+                            </div>
+                            </div>
+                        </div>
+                    </div>`;
+
+                    for (let index = 0; index < portfolioItemsForHome.length; index++) {
+                      const element = portfolioItemsForHome[index];
+
+                      var images = ""
+                      for (let idx = 0; idx < element.images.length; idx++) {
+                        images += "<a href='" + element.images[idx] + "' class='lightbox-img'></a>";
+                      }
+
+                      var html = template.replace("$link", element.link)
+                        .replace("$images", images)
+                        .replace("$image", element.thumbnail)
+                        .replace("$title", element.title)
+                        .replace(/pdescription/g, element.description);
+                      document.write(html);
+                    }
+              </script>
+
+              <!-- <div class="work-item hover-trigger hover-scale">
                 <div class="work-item__container card">
                   <div class="work-item__img-holder">
-                    <a href="http://vimeo.com/19270640" class="lightbox-video">
-                      <img src="img/architecture/5.jpg" alt="" class="work-item__img">
+                    <a href="img/portfolio-home/1.jpg" class="lightbox-img">
+                      <img src="img/portfolio-home/1.jpg" alt="" class="work-item__img">
                     </a>              
                   </div>
                   <div class="card__body">
                     <div class="work-item__description">
-                      <h3 class="work-item__title"><a href="">Hanna</a></h3>
-                      <p class="work-item__text">
-                        Our project is the best project ever designed by humanity or aliens.
-                      </p>
+                      <h3 class="work-item__title"><a href="">Chitgar Connection Bridge</a></h3>
+                      <p class="work-item__text">Text</p>
                       <a href="portfolio-single.html" class="link-more">View Project<i class="ui-arrow-right"></i></a>
                     </div>
                   </div>
                 </div> 
-              </div> <!-- end work-item -->
+              </div> 
 
               <div class="work-item hover-trigger hover-scale">
                 <div class="work-item__container card">
                   <div class="work-item__img-holder">
-                    <a href="https://www.youtube.com/watch?v=Scxs7L0vhZ4?autoplay=1" class="lightbox-video">
-                      <img src="img/architecture/2.jpg" alt="" class="work-item__img">
-                    </a>              
-                  </div>
-                  <div class="card__body">
-                    <div class="work-item__description">
-                      <h3 class="work-item__title"><a href="">Hanna</a></h3>
-                      <p class="work-item__text">
-                        Trying is the first step to failure.
-                      </p>
-                      <a href="portfolio-single.html" class="link-more">View Project<i class="ui-arrow-right"></i></a>
-                    </div>
-                  </div>
-                </div> 
-              </div> <!-- end work-item -->
-
-              <div class="work-item hover-trigger hover-scale">
-                <div class="work-item__container card">
-                  <div class="work-item__img-holder">
-                    <a href="img/portfolio/masonry_1/3.jpg" class="lightbox-img">
-                      <img src="img/architecture/3.jpg" alt="" class="work-item__img">
+                    <a href="img/portfolio-home/2.jpg" class="lightbox-img">
+                      <img src="img/portfolio-home/2.jpg" alt="" class="work-item__img">
                     </a>              
                   </div>
                   <div class="card__body">
@@ -362,13 +396,13 @@
                     </div>
                   </div>
                 </div> 
-              </div> <!-- end work-item -->
+              </div> 
 
               <div class="work-item hover-trigger hover-scale">
                 <div class="work-item__container card">
                   <div class="work-item__img-holder">
-                    <a href="img/portfolio/masonry_1/4.jpg" class="lightbox-img">
-                      <img src="img/architecture/4.jpg" alt="" class="work-item__img">
+                    <a href="img/portfolio-home/3.jpg" class="lightbox-img">
+                      <img src="img/portfolio-home/3.jpg" alt="" class="work-item__img">
                     </a>              
                   </div>
                   <div class="card__body">
@@ -381,26 +415,28 @@
                     </div>
                   </div>
                 </div> 
-              </div> <!-- end work-item -->
+              </div> 
 
               <div class="work-item hover-trigger hover-scale">
-                  <div class="work-item__container card">
-                    <div class="work-item__img-holder">
-                      <a href="img/portfolio/masonry_1/4.jpg" class="lightbox-img">
-                        <img src="img/architecture/6.jpg" alt="" class="work-item__img">
-                      </a>              
+                <div class="work-item__container card">
+                  <div class="work-item__img-holder">
+                    <a href="img/portfolio-home/4.jpg" class="lightbox-img">
+                      <img src="img/portfolio-home/4.jpg" alt="" class="work-item__img">
+                    </a>              
+                  </div>
+                  <div class="card__body">
+                    <div class="work-item__description">
+                      <h3 class="work-item__title"><a href="">Stunning Exterior Home</a></h3>
+                      <p class="work-item__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+                      </p>
+                      <a href="portfolio-single.html" class="link-more">View Project<i class="ui-arrow-right"></i></a>
                     </div>
-                    <div class="card__body">
-                      <div class="work-item__description">
-                        <h3 class="work-item__title"><a href="">6666 Stunning Exterior Home</a></h3>
-                        <p class="work-item__text">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
-                        </p>
-                        <a href="portfolio-single.html" class="link-more">View Project<i class="ui-arrow-right"></i></a>
-                      </div>
-                    </div>
-                  </div> 
-                </div> <!-- end work-item -->
+                  </div>
+                </div> 
+              </div>  -->
+
+            
 
             </div>
 

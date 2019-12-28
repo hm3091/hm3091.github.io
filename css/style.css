@@ -2730,7 +2730,7 @@ html.fp-enabled {
   transition: 0.3s cubic-bezier(0.43, 0.07, 0.61, 0.95);
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-  filter: grayscale(90%);
+  /* filter: grayscale(90%); */
 }
 
 .work-item__description {
