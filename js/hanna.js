@@ -4,10 +4,16 @@ for the website background. Image are expected to be found
 inside the img/hanna directory using the filename format bg-{number}.jpg
 /**********************************************************/
 
-var totalNumberOfImages = 10
-var imageNumber=Math.floor(Math.random() * totalNumberOfImages) + 1;
-$('#sectionBackgroundImage').css("background-image", "url(img/hanna/bg" + imageNumber + ".jpg)");
-$('#sectionBackgroundImagePortfolio').css("background-image", "url(img/hanna/bg" + imageNumber + ".jpg)");
+function getBackgroundImageNumber() {
+    var totalNumberOfImages = 10
+    return Math.floor(Math.random() * totalNumberOfImages) + 1;
+}
+function changeBackgroundImage() {
+    $('#sectionBackgroundImage').css("background-image", "url(img/hanna/bg" + getBackgroundImageNumber() + ".jpg)").fadeIn();
+}
+changeBackgroundImage();
+
+$('#sectionBackgroundImagePortfolio').css("background-image", "url(img/hanna/bg" + getBackgroundImageNumber() + ".jpg)");
 $('#sectionBackgroundImagePortfolioExploded').css("background-image", "url(img/diagrams/exploded/06.jpg)");
 /*********************************************************
 Change slogans by adding them below, separate them by a comma
@@ -25,8 +31,7 @@ $('#sloganText').text(slogans[sloganNumber]);
 The logic below is used to apply shade and filters animations
 as the background picture loads. Do not modify!
 /**********************************************************/
-
-var changeBgFunc = setInterval(changeBackgroundFilter, 80);
+var changeBgFunc = setInterval(changeBackgroundFilter, 100);
 function changeBackgroundFilter() {
     var filter = $('#sectionBackgroundImage').css("filter");
     var first = filter.indexOf('(');
@@ -35,7 +40,7 @@ function changeBackgroundFilter() {
     value -= .1
     var newFilter = filter.substring(0, first + 1) + value + filter.substring(second);
     $('#sectionBackgroundImage').css("filter", newFilter);
-    if (value <= 0.38) {
+    if (value <= 0.58) {
         clearInterval(changeBgFunc)
     }
 }

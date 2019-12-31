@@ -650,7 +650,7 @@ blockquote span {
 /* Grid
 /*-------------------------------------------------------*/
 .section-wrap {
-  padding: 50px 0;
+  padding: 5px 0;
   overflow: hidden;
   background-s.ize: cover;
   background-position: center;
@@ -1618,7 +1618,7 @@ blockquote span {
 /* Services Slider
 /*-------------------------------------------------------*/
 #owl-services-slider .feature {
-  padding: 0 15px;
+  padding: 0 10px;
 }
 
 /*-------------------------------------------------------*/
@@ -6941,7 +6941,7 @@ img.alignright {
 }
 
 .owl-item {
-  width:auto;
+  width:100%;
   text-align: center;
 }
 
