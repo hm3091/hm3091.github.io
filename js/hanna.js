@@ -47,6 +47,8 @@ function changeBackgroundFilter() {
 
 
 // $('img').on('dragstart', function(event) { event.preventDefault(); });
-// $("body").on("contextmenu", function(e) {
-//   return false;
-// });
+if (!window.location.startsWith("file:")) {
+    $("body").on("contextmenu", function(e) {
+    return false;
+    });
+}
