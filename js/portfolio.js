@@ -7,9 +7,9 @@ var portfolioItemsForHome = [
         description: 'As the largest metropolitan area in Tehran, this project is about connecting the park and the lake in the Chitgar Recreational Zone.'
     },
     {
-        link: 'img/portfolio-home/2.jpg',
+        link: 'img/portfolio-home/4.jpg',
         thumbnail: 'img/portfolio-home/4.jpg',
-        images: ['img/portfolio-home/2.jpg', 'img/portfolio-home/4.jpg'],
+        images: ['img/portfolio-home/2.jpg', 'img/portfolio-home/3.jpg'],
         title: 'Salian Office Building',
         description: 'Salian is an Iranian clothing brand. This design aims to transform the building from a private isolated mass into a multipurpose structure.'
     },
