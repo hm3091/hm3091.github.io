@@ -13,7 +13,9 @@ function changeBackgroundImage() {
 }
 changeBackgroundImage();
 
-$('#sectionBackgroundImagePortfolio').css("background-color", "rgb(32,32,32)");
+$('#sectionBackgroundImagePortfolio').css("background-color", "rgb(32,32,32)")
+                                     .css("filter", "blur(1.5px)")
+                                     .css("opacity", "1");
 $('#sectionBackgroundImagePortfolioExploded').css("background-image", "url(img/diagrams/exploded/06.jpg)");
 /*********************************************************
 Change slogans by adding them below, separate them by a comma
