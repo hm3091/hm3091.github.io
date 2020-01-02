@@ -2690,11 +2690,13 @@ html.fp-enabled {
   padding: 0 12px;
   color: #212121;
   letter-spacing: -0.04em;
+  cursor:pointer;
 }
 
 .portfolio-filter a.active,
 .portfolio-filter a:hover {
   color: #39bad6;
+  cursor:pointer;
 }
 
 .work-item {
