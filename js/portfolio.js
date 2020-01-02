@@ -121,3 +121,8 @@ function writePortfolioWorkItemsForHome() {
             document.write(html);
         });
 }
+
+
+
+
+

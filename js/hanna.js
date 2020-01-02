@@ -13,7 +13,7 @@ function changeBackgroundImage() {
 }
 changeBackgroundImage();
 
-$('#sectionBackgroundImagePortfolio').css("background-image", "url(img/hanna/bg" + getBackgroundImageNumber() + ".jpg)");
+$('#sectionBackgroundImagePortfolio').css("background-color", "rgb(32,32,32)");
 $('#sectionBackgroundImagePortfolioExploded').css("background-image", "url(img/diagrams/exploded/06.jpg)");
 /*********************************************************
 Change slogans by adding them below, separate them by a comma
@@ -47,7 +47,7 @@ function changeBackgroundFilter() {
 
 
 // $('img').on('dragstart', function(event) { event.preventDefault(); });
-if (!window.location.startsWith("file:")) {
+if (!window.location.href.startsWith("file:")) {
     $("body").on("contextmenu", function(e) {
     return false;
     });
