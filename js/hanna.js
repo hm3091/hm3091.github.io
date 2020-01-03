@@ -13,9 +13,6 @@ function changeBackgroundImage() {
 }
 changeBackgroundImage();
 
-$('#sectionBackgroundImagePortfolio').css("background-color", "rgb(32,32,32)")
-                                     .css("filter", "blur(1.5px)")
-                                     .css("opacity", "1");
 $('#sectionBackgroundImagePortfolioExploded').css("background-image", "url(img/diagrams/exploded/06.jpg)");
 /*********************************************************
 Change slogans by adding them below, separate them by a comma
@@ -36,6 +33,10 @@ as the background picture loads. Do not modify!
 var changeBgFunc = setInterval(changeBackgroundFilter, 100);
 function changeBackgroundFilter() {
     var filter = $('#sectionBackgroundImage').css("filter");
+    if (filter == undefined) {
+        clearInterval(changeBgFunc);
+        return;
+    }
     var first = filter.indexOf('(');
     var second = filter.indexOf(')');
     var value = filter.substring(first + 1, second);

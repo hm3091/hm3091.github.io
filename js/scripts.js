@@ -530,8 +530,10 @@
     var $backToTop = $("#back-to-top");
     if (scroll >= 50) {
       $backToTop.addClass("show");
+      $(".logo").css("filter", "none");
     } else {
       $backToTop.removeClass("show");
+      $(".logo").css("filter", "invert(100%)");
     }
   }
 

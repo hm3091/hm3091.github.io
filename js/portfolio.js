@@ -75,6 +75,13 @@ var portfolioItemsForHome = [
         images: ['img/portfolio-home/29.jpg', 'img/portfolio-home/30.jpg', 'img/portfolio-home/31.jpg', 'img/portfolio-home/32.jpg', 'img/portfolio-home/33.jpg', 'img/portfolio-home/34.jpg'],
         title: 'Mehrshahr Villa',
         description: 'A family villa, from a collection of 4 villas where the main design idea is to introduce new open spaces for the family to include both private and public spaces, separately.'
+    },
+    {
+        link: 'img/portfolio-home/36.jpg',
+        thumbnail: 'img/portfolio-home/36.jpg',
+        images: [],
+        title: 'Residential Complex',
+        description: 'Project spaces are designed according to the land topography. Apartment spaces were located at highest parts of the site with the best view and farthest distance from %20 slope of the land. Villa spaces could provide beautiful architectural appearance with better diffusion by benefiting from the topographical situation.'
     }
 ]
 
