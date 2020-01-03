@@ -6932,10 +6932,10 @@ img.alignright {
 
 
 .socialmedia {
-  width: 24px;
-  height: 24px;
+  width: 32px;
+  height: 32px;
   vertical-align: bottom;
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
 }
 
 #sectionBackgroundImagePortfolio {
