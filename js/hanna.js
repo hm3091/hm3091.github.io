@@ -5,7 +5,7 @@ inside the img/hanna directory using the filename format bg-{number}.jpg
 /**********************************************************/
 
 function getBackgroundImageNumber() {
-    var totalNumberOfImages = 10
+    var totalNumberOfImages = 11
     return Math.floor(Math.random() * totalNumberOfImages) + 1;
 }
 function changeBackgroundImage() {
@@ -49,9 +49,16 @@ function changeBackgroundFilter() {
 }
 
 
+/*************************Disable Right Click *****************/
 // $('img').on('dragstart', function(event) { event.preventDefault(); });
 if (!window.location.href.startsWith("file:")) {
     $("body").on("contextmenu", function(e) {
     return false;
     });
 }
+
+
+/******Carousel**************/
+$('.carousel').carousel({
+    interval: 1000  
+});

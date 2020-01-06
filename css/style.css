@@ -2706,6 +2706,7 @@ html.fp-enabled {
 .work-item__container {
   margin-bottom: 30px;
   overflow: hidden;
+  border: none;
 }
 
 .work-item__img-holder {
@@ -2802,7 +2803,7 @@ html.fp-enabled {
 /* Cards
 -------------------------------------------------------*/
 .card .work-item__img-holder {
-  border-radius: 5px 5px 0 0;
+  border-radius: 2px 2px 2px 2px;
 }
 
 .card__body {
@@ -6960,4 +6961,13 @@ img.alignright {
   height: 50%;
   margin-top: -10px;
   margin-bottom: 50px;
+}
+
+#navbar-collapse {
+  right: 30px;
+  position: absolute;
+}
+
+#sticky-nav {
+  border: none;
 }

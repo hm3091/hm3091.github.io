@@ -92,7 +92,7 @@ function shuffle(array) {
 
 function writePortfolioWorkItemsForHome() {
     var template =
-        `<div class='work-item hover-trigger hover-scale'>
+        `<div class='work-item hover-trigger hover-scale wow zoomIn data-wow-duration="2s" data-wow-delay=".2s"'>
             <div class='work-item__container card'>
                 <div class='work-item__img-holder'>
                 <a href='$link' class='lightbox-img'>
