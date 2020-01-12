@@ -131,5 +131,30 @@ function writePortfolioWorkItemsForHome() {
 
 
 
+/*********************************************************
+Write out background images for the carousel on the home page
+/**********************************************************/
+function writeCarouselBackgroundImages() {
+    var template =
+    `<div class="carousel-item $active">
+        <img class="d-block w-100 bg-img brightness-half" src="img/hanna/$image" 
+            alt="Hannaneh Misaghi | Architecture, Graphics and Design Studio | Instagram" 
+            title="Hannaneh Misaghi | Architecture, Graphics and Design Studio | Instagram">
+    </div>`;
+    const totalNumberOfImages = 11;
+    var backgroundImages = [];
+    for (let index = 1; index <= totalNumberOfImages; index++) {
+        backgroundImages.push("bg" + index + ".jpg");
+    }
+    backgroundImages.sort(() => Math.random() - 0.5);
+    for (let index = 0; index < backgroundImages.length; index++) {
+        const element = backgroundImages[index];
+        const active = index == 0;
 
+        var html = template
+            .replace("$active", (active ? "active" : ""))
+            .replace("$image", element);
+        document.write(html);
+    }
+}
 

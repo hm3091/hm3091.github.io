@@ -4,8 +4,8 @@ for the website background. Image are expected to be found
 inside the img/hanna directory using the filename format bg-{number}.jpg
 /**********************************************************/
 
+var totalNumberOfImages = 11;
 function getBackgroundImageNumber() {
-    var totalNumberOfImages = 11
     return Math.floor(Math.random() * totalNumberOfImages) + 1;
 }
 function changeBackgroundImage() {
@@ -14,6 +14,7 @@ function changeBackgroundImage() {
 changeBackgroundImage();
 
 $('#sectionBackgroundImagePortfolioExploded').css("background-image", "url(img/diagrams/exploded/06.jpg)");
+
 /*********************************************************
 Change slogans by adding them below, separate them by a comma
 /**********************************************************/
@@ -56,9 +57,3 @@ if (!window.location.href.startsWith("file:")) {
     return false;
     });
 }
-
-
-/******Carousel**************/
-$('.carousel').carousel({
-    interval: 1000  
-});

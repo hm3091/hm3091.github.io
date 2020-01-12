@@ -204,7 +204,7 @@ hr {
 }
 
 .bg-img {
-  height: 695px;
+  height: 100%;
   z-index: 0;
   /* filter: grayscale(90%); */
 }
@@ -6970,4 +6970,8 @@ img.alignright {
 
 #sticky-nav {
   border: none;
+}
+
+.brightness-half {
+  filter: brightness(0.5);
 }

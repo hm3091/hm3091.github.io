@@ -34,15 +34,13 @@
   <link rel="stylesheet" href="css/sliders.css" />
   <link rel="stylesheet" href="css/fullpage.css" />
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/animate.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 
   <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono|Lato|Karla|Roboto+Slab|Roboto|Anonymous+Pro" rel="stylesheet">
 
   <!-- Favicons -->
   <link rel="shortcut icon" href="img/favicon.jpg">
-  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137777572-1"></script>
@@ -53,6 +51,8 @@
 
     gtag('config', 'UA-137777572-1');
   </script>
+
+  <script src="js/portfolio.js"></script>
 
 </head>
 
@@ -77,7 +77,7 @@
             <div class="nav__header clearfix">
               <!-- Logo -->
               <div class="logo-wrap">
-                <a href="index.html" class="logo__link">
+                <a href="index.html" title="Home Page" class="logo__link">
                   <img class="logo" src="img/hanna/logo-01.png" 
                   alt="Hannaneh Misaghi | Architecture, Graphics and Design Studio" title="Hannaneh Misaghi | Architecture, Graphics and Design Studio">
                 </a>
@@ -91,11 +91,11 @@
               </button>
             </div> <!-- end nav-header -->
 
-            <nav id="navbar-collapse" class="nav__wrap collapse navbar-collapse ">
+            <nav id="navbar-collapse" class="nav__wrap collapse navbar-collapse ">              
               <ul class="nav__menu nav__menu--inline">
 
                 <li>
-                  <a class="menuitem" href="index.html">Home</a>
+                  <a title="Home" class="menuitem" href="index.html">Home</a>
                   <!-- <i class="ui-arrow-down nav__dropdown-trigger"></i>
                   <ul class="nav__dropdown-menu">
                     <li><a href="index.html">Home Startup</a></li>
@@ -108,7 +108,7 @@
                 </li>
 
                 <li>
-                  <a class="menuitem" href="portfolio.html">Portfolio</a>
+                  <a title="Portfolio" class="menuitem" href="portfolio.html">Portfolio</a>
                   <!-- <i class="ui-arrow-down nav__dropdown-trigger"></i> -->
                   <!-- <ul class="nav__dropdown-menu">
                     <li>
@@ -139,8 +139,8 @@
                     <a class="menuitem" href="#">About Us</a>
                 </li> -->
                 <li title="Contact">
-                  <a title="Contact" class="menuitem" href="contact.html">Contact</a>
-              </li>
+                    <a title="Contact" class="menuitem" href="contact.html">Contact</a>
+                </li>
 
                 <!-- <li class="nav__dropdown">
                   <a href="#">Features</a>
@@ -171,15 +171,26 @@
 
         <section class="hero slogan">
             <div class="hero__outer">
+                <div class="hero__inner text-center">
+                
+                  <div class="row">
+
+                   
+        
+                  </div>
+
+                </div>
             </div> 
 
 
         </section>
+
       <!-- Hero -->
-      <section id="sectionBackgroundImagePortfolio" class="hero">
-        <div class="container  container-full-height--deduct-mobile-nav bg-img" />
+      <section id="sectionBackgroundImage" class="hero">
+        <div class="container container-full-height container-full-height--deduct-mobile-nav bg-img" />
       </section>
       <!-- end hero -->
+
 
     
       <!-- Footer -->
@@ -205,52 +216,10 @@
                 </div>
               </div> <!-- end get in touch -->
 
-              <div class="col-md-6 col-md-offset-2 col-sm-6 col-xs-12">
-                <div class="widget footer__nav-links text-right text-sm-center">
-                  <ul class="list-inline">
-                    <li><a href="#">Works</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                  </ul>
-
-                  <div class="footer__socials mt-50">
-                    <div class="social-icons social-icons--nobase">
-
-
-                      <a href="mailto:hm3091@gmail.com">
-                          <img title="Hannaneh Misaghi Architecture Design Freelance Email Contact" 
-                          title="Hannaneh Misaghi Architecture Design Freelance Email Contact" 
-                            class="socialmedia zoom" src="img/gmail.png"></a>
-
-                      <a href="https://t.me/Hananeh0MI" target="_parent">
-                              <img  itle="Hannaneh Misaghi Architecture Design Freelance Telegram" 
-                              alt="Hannaneh Misaghi Architecture Design Freelance Telegram" 
-                              class="socialmedia zoom" src="img/telegram.png"></a>
-                      <a href="https://www.fiverr.com/hannanehmisaghi" target="_parent">
-                        <img  title="Hannaneh Misaghi Architecture Design Freelance Fiverr" 
-                        alt="Hannaneh Misaghi Architecture Design Freelance Fiverr" 
-                        class="socialmedia zoom" src="img/fiverr.png"></a>
-                      <a href="https://www.instagram.com/hananehmisaghi/" target="_parent">
-                        <img title="Hannaneh Misaghi Architecture Design Freelance Instagram" alt="Hannaneh Misaghi Architecture Design Freelance Instagram" 
-                        class="socialmedia zoom" src="img/instagram.png" target="_parent"></a>
-                      <a href="https://twitter.com/hannamisaghi" target="_parent">
-                        <img title="Hannaneh Misaghi Architecture Design Freelance Twitter" alt="Hannaneh Misaghi Architecture Design Freelance Twitter" 
-                        class="socialmedia zoom" src="img/twitter.png" target="_parent"></a>
-                      <a href="https://issuu.com/hananehmisaghi">
-                        <img title="Hannaneh Misaghi Architecture Design Freelance Issuu" alt="Hannaneh Misaghi Architecture Design Freelance Issuu" 
-                        class="socialmedia zoom" src="img/issuu.png"></a>
-                      <a href="https://www.linkedin.com/in/hananeh-misaghi-b4491672" target="_parent">
-                        <img title="Hannaneh Misaghi Architecture Design Freelance LinkedIn" alt="Hannaneh Misaghi Architecture Design Freelance LinkedIn" 
-                        class="socialmedia zoom" src="img/linkedin.png"></i></a>
-                    </div>
-                  </div>
-
-                </div>
-              </div> <!-- end nav links / socials -->
 
             </div>
+            <div>&copy; Copyright <script>var d = new Date();document.write(d.getFullYear())</script>, HANNA Architecture, Graphics and Design Studio</div>
+            <a href="//www.dmca.com/Protection/Status.aspx?ID=1ab4ff56-1da5-4b7a-a8db-1fda54efbfba" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca_protected_sml_120n.png?ID=1ab4ff56-1da5-4b7a-a8db-1fda54efbfba"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
           </div>    
         </div>
       </footer> <!-- end footer -->
@@ -278,7 +247,14 @@
   <script type="text/javascript" src="js/fullpage.min.js"></script>
   <!-- <script type="text/javascript" src="js/gmap3.min.js"></script> -->
   <script type="text/javascript" src="js/scripts.js"></script>
+  <script type="text/javascript" src="js/wow.js"></script>
   <script type="text/javascript" src="js/hanna.js"></script>
     
+  <script>
+    $(document).ready(function() {
+      new WOW().init();
+    });
+  </script>
+
 </body>
 </html>
