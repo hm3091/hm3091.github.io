@@ -3390,7 +3390,7 @@ html.fp-enabled {
   width: auto;
   height: auto;
   line-height: 1;
-  margin-right: 24px;
+  /* margin-right: 24px; */
   background-color: transparent;
   color: #929292;
 }
@@ -6974,4 +6974,18 @@ img.alignright {
 
 .brightness-half {
   filter: brightness(0.5);
+}
+
+.contactus-img {
+  width: 82px;
+  height: 82px;
+}
+
+.social-title, .social-info {
+  color:white;
+  text-align: center;
+}
+
+.social-info {
+  font-size: smaller;
 }
