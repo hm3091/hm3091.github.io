@@ -6977,8 +6977,9 @@ img.alignright {
 }
 
 .contactus-img {
-  width: 82px;
-  height: 82px;
+  width: 64px;
+  height: 64px;
+  filter: grayscale(1);
 }
 
 .social-title, .social-info {
