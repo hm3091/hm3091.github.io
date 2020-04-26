@@ -158,3 +158,12 @@ function writeCarouselBackgroundImages() {
     }
 }
 
+
+function writPortfolioItemsForProject(path, count) {
+    for (let index = 1; index <= count; index++) {
+        var item = "<div class='owl-item'>";
+        item += "<img src='" + path + "/" + index + ".jpg' alt='Hannaneh Misaghi | Architecture, Graphics and Design Studio'>";
+        item += "</div>";
+        document.write(item);
+    }
+}

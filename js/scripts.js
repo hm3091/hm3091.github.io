@@ -270,13 +270,15 @@
       -------------------------------------------------------*/
 
       $("#owl-work-single").owlCarousel({ 
-        // autoPlay: 3000,   
-        navigation: false,
+        autoPlay: 2000,   
+        navigation: true,
         slideSpeed: 300,
         pagination: true,
-        paginationSpeed: 400,
+        loop: true,
+        navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+        paginationSpeed: 1800,
         stopOnHover: true,
-        singleItem: true,
+        singleItem: true
       })
    
 

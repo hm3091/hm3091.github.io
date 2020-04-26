@@ -3314,7 +3314,7 @@ html.fp-enabled {
   display: block;
   position: absolute;
   top: 50%;
-  margin-top: -23px;
+  margin-top: 40px;
   text-align: center;
   line-height: 46px;
   z-index: 10;
