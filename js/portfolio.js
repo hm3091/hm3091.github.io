@@ -14,7 +14,7 @@ var portfolioItemsForHome = [
         description: 'Salian is an Iranian clothing brand. This design aims to transform the building from a private isolated mass into a multipurpose structure.'
     },
     {
-        link: 'img/portfolio-home/11.jpg',
+        link: 'portfolio-majidieh-house.html',
         thumbnail: 'img/portfolio-home/11.jpg',
         images: ['img/portfolio-home/12.jpg', 'img/portfolio-home/13.jpg'],
         title: 'Majidieh House',
