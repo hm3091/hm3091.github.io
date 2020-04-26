@@ -63,7 +63,7 @@ var portfolioItemsForHome = [
         description: 'The Plasco building’s exterior design is inspired by a new concept as well as the tragic fire accident. We try to connect the pathways and use the ceiling of the 5-story building to house more people into the building and use the spaces as the museum to pay tribute to fire-fighters who died in the fire explosion.'
     },
     {
-        link: 'img/portfolio-home/26.jpg',
+        link: 'portfolio-dezashib-offices.html',
         thumbnail: 'img/portfolio-home/26.jpg',
         images: ['img/portfolio-home/27.jpg'],
         title: 'Dezashib Offices',
@@ -95,7 +95,7 @@ function writePortfolioWorkItemsForHome() {
         `<div class='work-item hover-trigger hover-scale wow zoomIn data-wow-duration="2s" data-wow-delay=".2s"'>
             <div class='work-item__container card'>
                 <div class='work-item__img-holder'>
-                <a href='$link' class='lightbox-img'>
+                <a href='$link'>
                     <img src='$image' title='pdescription' alt='pdescription' class='work-item__img'>
                 </a>
                 $images
@@ -104,7 +104,6 @@ function writePortfolioWorkItemsForHome() {
                 <div class='work-item__description'>
                     <h3 class='work-item__title'><a href=''>$title</a></h3>
                     <p class='work-item__text'>pdescription</p>
-                    <!-- <a href='portfolio-single.html' class='link-more'>View Project<i class='ui-arrow-right'></i></a> -->
                 </div>
                 </div>
             </div>
@@ -164,6 +163,7 @@ function writPortfolioItemsForProject(path, count) {
         var item = "<div class='owl-item'>";
         item += "<img src='" + path + "/" + index + ".jpg' alt='Hannaneh Misaghi | Architecture, Graphics and Design Studio'>";
         item += "</div>";
-        document.write(item);
+       
+        $('#owl-work-single').append(item);
     }
 }
