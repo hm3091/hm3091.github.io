@@ -251,7 +251,7 @@
       -------------------------------------------------------*/
 
       $("#owl-services-slider").owlCarousel({ 
-        autoPlay: 3000,   
+        // autoPlay: 3000,   
         navigation: false,
         slideSpeed: 300,
         pagination: false,

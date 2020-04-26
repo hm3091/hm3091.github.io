@@ -35,7 +35,7 @@ var portfolioItemsForHome = [
         description: 'The museum is inspired by the Qaban castle in Maku, in the West Azerbaijan Province, and is tasked to protect and preserve the remains of the castle relics.'
     },
     {
-        link: 'img/portfolio-home/19.jpg',
+        link: 'portfolio-mediatheque.html',
         thumbnail: 'img/portfolio-home/19.jpg',
         images: [],
         title: 'Mediatheque',
