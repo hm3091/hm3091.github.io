@@ -6975,6 +6975,11 @@ img.alignright {
 #sectionPortfolioItemBackgroundImageQabanMuseum {
   background-image: url(../img/architecture-design/personal-projects/qaban-museum/7.jpg);
 }
+
+#sectionPortfolioItemBackgroundImageSalianOffices {
+  background-image: url(../img/architecture-design/collab-projects/salian-office-hq/first-alternative/1.jpg);
+}
+
 .project_description_container {
   margin-left:15%;
   margin-top: 3%;

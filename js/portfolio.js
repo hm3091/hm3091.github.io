@@ -7,7 +7,7 @@ var portfolioItemsForHome = [
         description: "The subject of the design is focus on the interior design of the proposed space and present Dolche Vita brand accessories. The morphology of this project is inspired by modular divisions."
     },
     {
-        link: 'img/portfolio-home/2.jpg',
+        link: 'portfolio-salian-offices.html',
         thumbnail: 'img/portfolio-home/2.jpg',
         images: ['img/portfolio-home/3.jpg', 'img/portfolio-home/4.jpg', 'img/portfolio-home/5.jpg', 'img/portfolio-home/6.jpg', 'img/portfolio-home/7.jpg', 'img/portfolio-home/8.jpg', 'img/portfolio-home/9.jpg', 'img/portfolio-home/10.jpg'],
         title: 'Salian Office Building',
