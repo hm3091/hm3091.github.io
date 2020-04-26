@@ -28,7 +28,7 @@ var portfolioItemsForHome = [
         description: 'The main purpose of this project is to organize the city of Eghbaliye, to review the city’s livelihood, economic, social and demographic conditions.'
     },
     {
-        link: 'img/portfolio-home/16.jpg',
+        link: 'portfolio-qaban-museum.html',
         thumbnail: 'img/portfolio-home/16.jpg',
         images: ['img/portfolio-home/17.jpg', 'img/portfolio-home/18.jpg'],
         title: 'Qaban Museum',
