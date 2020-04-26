@@ -6995,6 +6995,11 @@ img.alignright {
 #sectionPortfolioItemBackgroundImageChitgar {
   background-image: url(../img/architecture-competitions/chitgar-connection-bridge/3.jpg);
 }
+
+#sectionPortfolioItemBackgroundImagePlasco {
+  background-image: url(../img/architecture-competitions/new-plasco/1.jpg);
+}
+
 .project_description_container {
   margin-left:15%;
   margin-top: 3%;
