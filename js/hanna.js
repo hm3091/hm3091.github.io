@@ -13,8 +13,6 @@ function changeBackgroundImage() {
 }
 changeBackgroundImage();
 
-$('#sectionBackgroundImagePortfolioExploded').css("background-image", "url(img/diagrams/exploded/06.jpg)");
-
 /*********************************************************
 Change slogans by adding them below, separate them by a comma
 /**********************************************************/
