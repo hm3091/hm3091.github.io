@@ -7011,6 +7011,10 @@ img.alignright {
 #sectionPortfolioItemBackgroundImageDiagramsSections {
   background-image: url(../img/architecture-graphics/diagrams/section/4.jpg);
 }
+
+#sectionPortfolioItemBackgroundImageDiagramsElevations {
+  background-image: url(../img/architecture-graphics/diagrams/elevations/3.jpg);
+}
 .project_description_container {
   margin-left:15%;
   margin-top: 3%;
