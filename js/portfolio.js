@@ -21,7 +21,7 @@ var portfolioItemsForHome = [
         description: 'Renovations for a one-floor modest villa in north of Tehran.'
     },
     {
-        link: 'img/portfolio-home/14.jpg',
+        link: 'portfolio-eghbaliyeh-gardencity.html',
         thumbnail: 'img/portfolio-home/14.jpg',
         images: ['img/portfolio-home/15.jpg'],
         title: 'Eghbaliye Garden City',
