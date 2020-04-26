@@ -6947,33 +6947,24 @@ img.alignright {
   height: 72px;
 }
 
-#sectionPortfolioItemBackgroundImageDezashib {
+.sectionPortfolioItemBackgroundImage {
   filter: grayscale(.2) brightness(.5);
   background-size: cover;
   background-attachment: fixed;
   background-position: center -70px;
   background-repeat: no-repeat;
   height: 800px;
+}
+
+#sectionPortfolioItemBackgroundImageDezashib {
   background-image: url(../img/architecture-design/collab-projects/dezashib-office/5.jpg);
 }
 
 #sectionPortfolioItemBackgroundImageMediatheque {
-  filter: grayscale(.2) brightness(.5);
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center -70px;
-  background-repeat: no-repeat;
-  height: 800px;
   background-image: url(../img/architecture-design/personal-projects/mediatheque/12.jpg);
 }
 
 #sectionPortfolioItemBackgroundImageMehhrshahrVilla {
-  filter: grayscale(.2) brightness(.5);
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center -70px;
-  background-repeat: no-repeat;
-  height: 800px;
   background-image: url(../img/architecture-design/collab-projects/mehrshahr-villa/4.jpg);
 }
 
