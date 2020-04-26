@@ -7023,6 +7023,11 @@ img.alignright {
 #sectionPortfolioItemBackgroundImageDiagramsUrbanPlanning {
   background-image: url(../img/architecture-graphics/diagrams/urban-planning/8.jpg);
 }
+
+#sectionPortfolioItemBackgroundImageVisualizationsResidential {
+  background-image: url(../img/architecture-graphics/visualizations/1.jpg);
+}
+
 .project_description_container {
   margin-left:15%;
   margin-top: 3%;
