@@ -1,6 +1,6 @@
 var portfolioItemsForHome = [
     {
-        link: 'img/portfolio-home/1.jpg',
+        link: 'portfolio-dolche-vita.html',
         images: [],
         thumbnail: 'img/portfolio-home/1.jpg',
         title: "Dolche Vita Home",
