@@ -49,7 +49,7 @@ var portfolioItemsForHome = [
         description: 'A cafe designed for the Rolfbenz brand in Tehran. The main concept is to present large open spaces so the private/VIP locations of the bar would be separate from the public while allowing all spaces to have a view of the main void.'
     },
     {
-        link: 'img/portfolio-home/21.jpg',
+        link: 'portfolio-chitgar-connection-bridge.html',
         thumbnail: 'img/portfolio-home/21.jpg',
         images: ['img/portfolio-home/22.jpg', 'img/portfolio-home/23.jpg'],
         title: 'Chitgar Connection Bridge',

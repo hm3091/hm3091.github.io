@@ -4415,7 +4415,7 @@ header .flex-child.flex-right {
 
 .menuitem {
   font-family: Karla;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 /* Nav Transparent
@@ -6990,6 +6990,10 @@ img.alignright {
 
 #sectionPortfolioItemBackgroundImageResidentialComplex {
   background-image: url(../img/architecture-design/personal-projects/residential-complex/1.jpg);
+}
+
+#sectionPortfolioItemBackgroundImageChitgar {
+  background-image: url(../img/architecture-competitions/chitgar-connection-bridge/3.jpg);
 }
 .project_description_container {
   margin-left:15%;
