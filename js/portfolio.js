@@ -42,7 +42,7 @@ var portfolioItemsForHome = [
         description: 'A Mediatheque complex, art gallery, cinema and museum, functioning as a media library, exhibition space and recreational area as proxies for social congregations.'
     },
     {
-        link: 'img/portfolio-home/20.jpg',
+        link: 'portfolio-rolfbenz-cafe.html',
         thumbnail: 'img/portfolio-home/20.jpg',
         images: [],
         title: 'Rolfbenz Cafe',
