@@ -6967,6 +6967,17 @@ img.alignright {
   background-image: url(../img/architecture-design/personal-projects/mediatheque/12.jpg);
 }
 
+#sectionPortfolioItemBackgroundImageMehhrshahrVilla {
+  filter: grayscale(.2) brightness(.5);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center -70px;
+  background-repeat: no-repeat;
+  height: 800px;
+  background-image: url(../img/architecture-design/collab-projects/mehrshahr-villa/4.jpg);
+}
+
+
 .project_description_container {
   margin-left:15%;
   margin-top: 3%;

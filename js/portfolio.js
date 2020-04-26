@@ -70,7 +70,7 @@ var portfolioItemsForHome = [
         description: 'A renovation project where residential spaces are transformed into office buildings. The main design goal is to present a new concept to allow for introduction of green spaces while also exposing the corridors and staircases to the public view.'
     },
     {
-        link: 'img/portfolio-home/28.jpg',
+        link: 'portfolio-mehrshahr-villa.html',
         thumbnail: 'img/portfolio-home/28.jpg',
         images: ['img/portfolio-home/29.jpg', 'img/portfolio-home/30.jpg', 'img/portfolio-home/31.jpg', 'img/portfolio-home/32.jpg', 'img/portfolio-home/33.jpg', 'img/portfolio-home/34.jpg'],
         title: 'Mehrshahr Villa',
