@@ -77,7 +77,7 @@ var portfolioItemsForHome = [
         description: 'A family villa, from a collection of 4 villas where the main design idea is to introduce new open spaces for the family to include both private and public spaces, separately.'
     },
     {
-        link: 'img/portfolio-home/36.jpg',
+        link: 'portfolio-residential-complex.html',
         thumbnail: 'img/portfolio-home/36.jpg',
         images: [],
         title: 'Residential Complex',

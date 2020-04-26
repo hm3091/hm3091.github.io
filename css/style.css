@@ -6987,6 +6987,10 @@ img.alignright {
 #sectionPortfolioItemBackgroundImageDolcheVita {
   background-image: url(../img/architecture-competitions/dolche-vita-home/4.jpg);
 }
+
+#sectionPortfolioItemBackgroundImageResidentialComplex {
+  background-image: url(../img/architecture-design/personal-projects/residential-complex/1.jpg);
+}
 .project_description_container {
   margin-left:15%;
   margin-top: 3%;
