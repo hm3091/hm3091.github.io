@@ -65,7 +65,6 @@ function writePortfolioWorkItemsForHome() {
                 </div>
             </div>
         </div>`;
-
         var copiedItems = shuffle(portfolioItemsForHome.slice());
         copiedItems.forEach(element => {
            
