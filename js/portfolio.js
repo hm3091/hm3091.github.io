@@ -7,20 +7,6 @@ var portfolioItemsForHome = [
         description: "The subject of the design is focus on the interior design of the proposed space and present Dolche Vita brand accessories. The morphology of this project is inspired by modular divisions."
     },
     {
-        link: 'portfolio-salian-offices.html',
-        thumbnail: 'img/portfolio-home/2.jpg',
-        images: [],
-        title: 'Salian Office Building',
-        description: 'Salian is an Iranian clothing brand. This design aims to transform the building from a private isolated mass into a multipurpose structure.'
-    },
-    {
-        link: 'portfolio-majidieh-house.html',
-        thumbnail: 'img/portfolio-home/11.jpg',
-        images: [],
-        title: 'Majidieh House',
-        description: 'Renovations for a one-floor modest villa in north of Tehran.'
-    },
-    {
         link: 'portfolio-eghbaliyeh-gardencity.html',
         thumbnail: 'img/portfolio-home/14.jpg',
         images: [],
@@ -42,46 +28,18 @@ var portfolioItemsForHome = [
         description: 'A Mediatheque complex, art gallery, cinema and museum, functioning as a media library, exhibition space and recreational area as proxies for social congregations.'
     },
     {
-        link: 'portfolio-rolfbenz-cafe.html',
-        thumbnail: 'img/portfolio-home/20.jpg',
-        images: [],
-        title: 'Rolfbenz Cafe',
-        description: 'A cafe designed for the Rolfbenz brand in Tehran. The main concept is to present large open spaces so the private/VIP locations of the bar would be separate from the public while allowing all spaces to have a view of the main void.'
-    },
-    {
-        link: 'portfolio-chitgar-connection-bridge.html',
-        thumbnail: 'img/portfolio-home/21.jpg',
-        images: [],
-        title: 'Chitgar Connection Bridge',
-        description: 'As the largest metropolitan area in Tehran, this project is about connecting the park and the lake in the Chitgar Recreational Zone.'
-    },
-    {
-        link: 'portfolio-new-plasco.html',
-        thumbnail: 'img/portfolio-home/24.jpg',
-        images: [],
-        title: 'New Plasco',
-        description: 'The Plasco building’s exterior design is inspired by a new concept as well as the tragic fire accident. We try to connect the pathways and use the ceiling of the 5-story building to house more people into the building and use the spaces as the museum to pay tribute to fire-fighters who died in the fire explosion.'
-    },
-    {
-        link: 'portfolio-dezashib-offices.html',
-        thumbnail: 'img/portfolio-home/26.jpg',
-        images: [],
-        title: 'Dezashib Offices',
-        description: 'A renovation project where residential spaces are transformed into office buildings. The main design goal is to present a new concept to allow for introduction of green spaces while also exposing the corridors and staircases to the public view.'
-    },
-    {
-        link: 'portfolio-mehrshahr-villa.html',
-        thumbnail: 'img/portfolio-home/28.jpg',
-        images: [],
-        title: 'Mehrshahr Villa',
-        description: 'A family villa, from a collection of 4 villas where the main design idea is to introduce new open spaces for the family to include both private and public spaces, separately.'
-    },
-    {
         link: 'portfolio-residential-complex.html',
         thumbnail: 'img/portfolio-home/36.jpg',
         images: [],
         title: 'Residential Complex',
         description: 'Project spaces are designed according to the land topography. Apartment spaces were located at highest parts of the site with the best view and farthest distance from %20 slope of the land. Villa spaces could provide beautiful architectural appearance with better diffusion by benefiting from the topographical situation.'
+    },
+    {
+        link: 'portfolio-tagh-behesht.html',
+        thumbnail: 'img/portfolio-home/18.jpg',
+        images: [],
+        title: 'Tagh Behesht',
+        description: 'Tagh Behesht is located in Mash-had, Iran. The project’s site has great potential to become an urban hub, given its proximity to one of Mash-had’s largest public parks which encourages and invites visitors of all ages.'
     }
 ]
 
@@ -158,7 +116,7 @@ function writeCarouselBackgroundImages() {
 function writPortfolioItemsForProject(path, count) {
     for (let index = 1; index <= count; index++) {
         var item = "<div class='owl-item'>";
-        item += "<img src='" + path + "/" + index + ".jpg' alt='Hannaneh Misaghi | Architecture, Graphics and Design Studio'>";
+        item += "<img class='portfolio-image' src='" + path + "/" + index + ".jpg' alt='Hannaneh Misaghi | Architecture, Graphics and Design Studio'>";
         item += "</div>";
        
         $('#owl-work-single').append(item);
