@@ -6976,6 +6976,10 @@ img.alignright {
   background-image: url(../img/architecture-design/personal-projects/qaban-museum/11.jpg);
 }
 
+#sectionPortfolioItemBackgroundImageTaghBehesht {
+  background-image: url(../img/architecture-competitions/tagh-behesht/1.jpg);
+}
+
 #sectionPortfolioItemBackgroundImageSalianOffices {
   background-image: url(../img/architecture-design/collab-projects/salian-office-hq/first-alternative/1.jpg);
 }
@@ -7072,4 +7076,9 @@ img.alignright {
 
 .social-info {
   font-size: small;
+}
+
+.portfolio-image {
+  width: 60%;
+  height: 60%;
 }
