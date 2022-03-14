@@ -4,7 +4,7 @@ for the website background. Image are expected to be found
 inside the img/hanna directory using the filename format bg-{number}.jpg
 /**********************************************************/
 
-var totalNumberOfImages = 11;
+var totalNumberOfImages = 7;
 function getBackgroundImageNumber() {
     return Math.floor(Math.random() * totalNumberOfImages) + 1;
 }

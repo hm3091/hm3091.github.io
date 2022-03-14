@@ -6937,7 +6937,11 @@ img.alignright {
   width: 32px;
   height: 32px;
   vertical-align: bottom;
-  /* filter: grayscale(100%); */
+  filter: grayscale(1);
+}
+
+.socialmedia:hover {
+  filter: grayscale(0);
 }
 
 #sectionBackgroundImagePortfolio {
@@ -7081,4 +7085,12 @@ img.alignright {
 .portfolio-image {
   width: 60%;
   height: 60%;
+}
+
+.portfolio-image-thumb {
+  filter: grayscale(1);
+}
+
+.portfolio-image-thumb:hover {
+  filter: grayscale(0);
 }
