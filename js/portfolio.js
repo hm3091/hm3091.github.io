@@ -54,7 +54,7 @@ function writePortfolioWorkItemsForHome() {
             <div class='work-item__container card'>
                 <div class='work-item__img-holder'>
                 <a href='$link'>
-                    <img src='$image' title='pdescription' alt='pdescription' class='work-item__img'>
+                    <img class='portfolio-image-thumb' src='$image' title='pdescription' alt='pdescription' class='work-item__img'>
                 </a>
                 </div>
                 <div class='card__body'>
@@ -91,8 +91,8 @@ function writeCarouselBackgroundImages() {
     var template =
     `<div class="carousel-item $active">
         <img class="d-block w-100 bg-img brightness-half" src="img/hanna/$image" 
-            alt="Hannaneh Misaghi | Architecture, Graphics and Design Studio | Instagram" 
-            title="Hannaneh Misaghi | Architecture, Graphics and Design Studio | Instagram">
+            alt="Hannaneh Misaghi | Architecture and Design Studio Studio | Instagram" 
+            title="Hannaneh Misaghi | Architecture and Design Studio Studio | Instagram">
     </div>`;
     const totalNumberOfImages = 11;
     var backgroundImages = [];
@@ -115,7 +115,7 @@ function writeCarouselBackgroundImages() {
 function writPortfolioItemsForProject(path, count) {
     for (let index = 1; index <= count; index++) {
         var item = "<div class='owl-item'>";
-        item += "<img class='portfolio-image' src='" + path + "/" + index + ".jpg' alt='Hannaneh Misaghi | Architecture, Graphics and Design Studio'>";
+        item += "<img class='portfolio-image portfolio-image-thumb' src='" + path + "/" + index + ".jpg' alt='Hannaneh Misaghi | Architecture and Design Studio Studio'>";
         item += "</div>";
        
         $('#owl-work-single').append(item);
