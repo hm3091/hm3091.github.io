@@ -18,8 +18,8 @@ Change slogans by adding them below, separate them by a comma
 /**********************************************************/
 
 const slogans = [
-    "Stylish Architectural Designs and Professional Graphics",
-    "Professional Architectural Designs with Stylish Graphics"
+    "Architectural Designs and Professional Graphics",
+    "Professional Architectural Designs and Graphics"
 ];
 
 var sloganNumber=Math.floor(Math.random() * slogans.length);
