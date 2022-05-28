@@ -2,41 +2,41 @@ var portfolioItemsForHome = [
     {
         link: 'portfolio-dolche-vita.html',
         images: [],
-        thumbnail: 'img/portfolio-home/1.jpg',
+        thumbnail: 'img/architecture-competitions/dolche-vita-home/4.jpg',
         title: "Dolche Vita Home",
         description: "The subject of the design is focus on the interior design of the proposed space and present Dolche Vita brand accessories. The morphology of this project is inspired by modular divisions."
     },
     {
         link: 'portfolio-al-daem-education-center.html',
         images: [],
-        thumbnail: 'img/portfolio-home/9.jpg',
+        thumbnail: 'img/architecture-design/personal-projects/al-daem-education-center/9.jpg',
         title: "Al Daem Education Center",
         description: "The project’s main goal is to create an educational place for women in one of the local mid-level areas of Dubai, UAE. This research project aims to design a space to enable women to access education and training opportunities in Dubai."
     },
     {
         link: 'portfolio-eghbaliyeh-gardencity.html',
-        thumbnail: 'img/portfolio-home/14.jpg',
+        thumbnail: 'img/architecture-design/personal-projects/eghbaliyeh-garden-city/9.jpg',
         images: [],
         title: 'Eghbaliye Garden City',
         description: 'The main purpose of this project is to organize the city of Eghbaliye, to review the city’s livelihood, economic, social and demographic conditions.'
     },
     {
         link: 'portfolio-qaban-museum.html',
-        thumbnail: 'img/portfolio-home/16.jpg',
+        thumbnail: 'img/architecture-design/personal-projects/qaban-museum/18.jpg',
         images: [],
         title: 'Qaban Museum',
         description: 'The museum is inspired by the Qaban castle in Maku, in the West Azerbaijan Province, and is tasked to protect and preserve the remains of the castle relics.'
     },
     {
         link: 'portfolio-mediatheque.html',
-        thumbnail: 'img/portfolio-home/19.jpg',
+        thumbnail: 'img/architecture-design/personal-projects/mediatheque/13.jpg',
         images: [],
         title: 'Mediatheque',
         description: 'A Mediatheque complex, art gallery, cinema and museum, functioning as a media library, exhibition space and recreational area as proxies for social congregations.'
     },
     {
         link: 'portfolio-tagh-behesht.html',
-        thumbnail: 'img/portfolio-home/18.jpg',
+        thumbnail: 'img/architecture-competitions/tagh-behesht/1.jpg',
         images: [],
         title: 'Tagh Behesht',
         description: 'Tagh Behesht is located in Mash-had, Iran. The project’s site has great potential to become an urban hub, given its proximity to one of Mash-had’s largest public parks which encourages and invites visitors of all ages.'
