@@ -7,6 +7,13 @@ var portfolioItemsForHome = [
         description: "The subject of the design is focus on the interior design of the proposed space and present Dolche Vita brand accessories. The morphology of this project is inspired by modular divisions."
     },
     {
+        link: 'portfolio-al-daem-education-center.html',
+        images: [],
+        thumbnail: 'img/portfolio-home/9.jpg',
+        title: "Al Daem Education Center",
+        description: "The project’s main goal is to create an educational place for women in one of the local mid-level areas of Dubai, UAE. This research project aims to design a space to enable women to access education and training opportunities in Dubai."
+    },
+    {
         link: 'portfolio-eghbaliyeh-gardencity.html',
         thumbnail: 'img/portfolio-home/14.jpg',
         images: [],
