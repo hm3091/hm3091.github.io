@@ -28,13 +28,6 @@ var portfolioItemsForHome = [
         description: 'A Mediatheque complex, art gallery, cinema and museum, functioning as a media library, exhibition space and recreational area as proxies for social congregations.'
     },
     {
-        link: 'portfolio-residential-complex.html',
-        thumbnail: 'img/portfolio-home/36.jpg',
-        images: [],
-        title: 'Residential Complex',
-        description: 'Project spaces are designed according to the land topography. Apartment spaces were located at highest parts of the site with the best view and farthest distance from %20 slope of the land. Villa spaces could provide beautiful architectural appearance with better diffusion by benefiting from the topographical situation.'
-    },
-    {
         link: 'portfolio-tagh-behesht.html',
         thumbnail: 'img/portfolio-home/18.jpg',
         images: [],
