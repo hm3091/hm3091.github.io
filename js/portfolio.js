@@ -7,18 +7,25 @@ var portfolioItemsForHome = [
         description: "The subject of the design is focus on the interior design of the proposed space and present Dolche Vita brand accessories. The morphology of this project is inspired by modular divisions."
     },
     {
+        link: 'portfolio-alps-wellness-retreat.html',
+        images: [],
+        thumbnail: 'img/architecture-competitions/alps-wellness-retreat/14.jpg',
+        title: "Alps Wellness Retreat",
+        description: "The vision of this project is to identify issues and elements in the built and natural environment that may be applied to making a positive impact for veterans suffering from PTSD by designing a wellness and retreat center."
+    },
+    {
         link: 'portfolio-al-daem-education-center.html',
         images: [],
         thumbnail: 'img/architecture-design/personal-projects/al-daem-education-center/9.jpg',
         title: "Al Daem Education Center",
-        description: "The project’s main goal is to create an educational place for women in one of the local mid-level areas of Dubai, UAE. This research project aims to design a space to enable women to access education and training opportunities in Dubai."
+        description: "The project's main goal is to create an educational place for women in one of the local mid-level areas of Dubai, UAE. This research project aims to design a space to enable women to access education and training opportunities in Dubai."
     },
     {
         link: 'portfolio-eghbaliyeh-gardencity.html',
         thumbnail: 'img/architecture-design/personal-projects/eghbaliyeh-garden-city/9.jpg',
         images: [],
         title: 'Eghbaliye Garden City',
-        description: 'The main purpose of this project is to organize the city of Eghbaliye, to review the city’s livelihood, economic, social and demographic conditions.'
+        description: "The main purpose of this project is to organize the city of Eghbaliye, to review the city's livelihood, economic, social and demographic conditions."
     },
     {
         link: 'portfolio-qaban-museum.html',
@@ -39,7 +46,7 @@ var portfolioItemsForHome = [
         thumbnail: 'img/architecture-competitions/tagh-behesht/1.jpg',
         images: [],
         title: 'Tagh Behesht',
-        description: 'Tagh Behesht is located in Mash-had, Iran. The project’s site has great potential to become an urban hub, given its proximity to one of Mash-had’s largest public parks which encourages and invites visitors of all ages.'
+        description: "Tagh Behesht is located in Mash-had, Iran. The project's site has great potential to become an urban hub, given its proximity to one of Mash-had's largest public parks which encourages and invites visitors of all ages."
     }
 ]
 
@@ -94,7 +101,7 @@ function writeCarouselBackgroundImages() {
             alt="Hannaneh Misaghi | Architecture and Design Studio Studio | Instagram" 
             title="Hannaneh Misaghi | Architecture and Design Studio Studio | Instagram">
     </div>`;
-    const totalNumberOfImages = 11;
+    const totalNumberOfImages = 7;
     var backgroundImages = [];
     for (let index = 1; index <= totalNumberOfImages; index++) {
         backgroundImages.push("bg" + index + ".jpg");
